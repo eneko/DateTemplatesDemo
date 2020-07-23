@@ -46,7 +46,7 @@ struct ContentView: View {
                                 .font(.headline)
                             Text(
                                 DateTemplate()
-                                    .dayOfWeek()
+                                    .dayOfWeek(.full)
                                     .month(.abbreviated)
                                     .day()
                                     .time()
