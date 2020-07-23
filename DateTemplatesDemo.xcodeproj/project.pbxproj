@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		9C7A2C8F24C9D6AA00DE5981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A2C8E24C9D6AA00DE5981 /* ContentView.swift */; };
 		9C7A2C9124C9D6AD00DE5981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A2C9024C9D6AD00DE5981 /* Assets.xcassets */; };
 		9C7A2C9424C9D6AD00DE5981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A2C9324C9D6AD00DE5981 /* Preview Assets.xcassets */; };
+		9C7A2C9D24C9D6DD00DE5981 /* DateTemplates in Frameworks */ = {isa = PBXBuildFile; productRef = 9C7A2C9C24C9D6DD00DE5981 /* DateTemplates */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7A2C9D24C9D6DD00DE5981 /* DateTemplates in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = DateTemplatesDemo;
+			packageProductDependencies = (
+				9C7A2C9C24C9D6DD00DE5981 /* DateTemplates */,
+			);
 			productName = DateTemplatesDemo;
 			productReference = 9C7A2C8924C9D6AA00DE5981 /* DateTemplatesDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,9 @@
 				Base,
 			);
 			mainGroup = 9C7A2C8024C9D6AA00DE5981;
+			packageReferences = (
+				9C7A2C9B24C9D6DD00DE5981 /* XCRemoteSwiftPackageReference "DateTemplates" */,
+			);
 			productRefGroup = 9C7A2C8A24C9D6AA00DE5981 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,6 +336,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C7A2C9B24C9D6DD00DE5981 /* XCRemoteSwiftPackageReference "DateTemplates" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eneko/DateTemplates";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C7A2C9C24C9D6DD00DE5981 /* DateTemplates */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C7A2C9B24C9D6DD00DE5981 /* XCRemoteSwiftPackageReference "DateTemplates" */;
+			productName = DateTemplates;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C7A2C8124C9D6AA00DE5981 /* Project object */;
 }
