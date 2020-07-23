@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DateTemplates",
+        "repositoryURL": "https://github.com/eneko/DateTemplates",
+        "state": {
+          "branch": null,
+          "revision": "796ffd308cbebc24f433e4aa1f10a071e54ff20b",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
